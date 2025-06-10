@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 
-const outfit = Outfit({ subsets: ["latin"] });
+const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vectoria - Automatización con IA",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={outfit.className}>{children}</body>
+      <body className={nunito.className}>{children}</body>
     </html>
   );
 }

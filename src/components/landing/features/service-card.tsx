@@ -32,7 +32,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
       whileInView="visible"
       viewport={{ once: true, amount: 0.3 }}
     >
-      <Card className="flex flex-col h-full overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02] bg-vectoria-lavender/30">
+      <Card className="flex flex-col h-full overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02] bg-vectoria-light-sky border-none">
         <CardHeader>
           {service.image && (
             <div className="mb-4">

@@ -24,6 +24,7 @@ const config: Config = {
   		},
   		colors: {
   			'vectoria-sky': '#B9F3FB',
+  			'vectoria-light-sky': 'rgb(222 243 246)',
   			'vectoria-lavender': '#D8C8F3',
   			'vectoria-blue-pastel': '#A8DAF0',
   			'vectoria-pink-lilac': '#E8C0F8',

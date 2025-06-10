@@ -14,7 +14,7 @@ export default function Home() {
         <ServicesSection />
         <FAQSection />
         <TestimonialsSection />
-      </main>
+    </main>
       <Footer />
     </>
   );

@@ -16,28 +16,28 @@ export function HeroSection() {
   };
 
   return (
-    <section id="hero" className="relative h-screen pt-16 flex items-center justify-center text-center bg-vectoria-gradient overflow-hidden">
+    <section id="hero" className="relative h-screen pt-16 flex items-center justify-center bg-vectoria-gradient overflow-hidden">
       <motion.div
-        className="container mx-auto px-4 z-10"
+        className="container mx-auto px-4 z-10 text-center"
         initial="hidden"
         animate="visible"
         variants={containerVariants}
       >
         <motion.h1
-          className="text-5xl md:text-7xl font-bold text-black leading-tight mb-4"
+          className="text-5xl md:text-7xl font-bold text-black leading-tight mb-6"
           variants={itemVariants}
         >
-          Automatización con IA a tu medida
+          Automatización con IA<br/>a tu medida
         </motion.h1>
         <motion.p
-          className="text-xl md:text-2xl text-black mb-8"
+          className="text-xl md:text-2xl text-black mb-10 max-w-3xl mx-auto"
           variants={itemVariants}
           transition={{ delay: 0.2 }}
         >
           Diseñamos e implementamos soluciones personalizadas para optimizar tus procesos de marketing, ventas y atención al cliente.
         </motion.p>
         <motion.div variants={itemVariants} transition={{ delay: 0.4 }}>
-          <Button className="bg-vectoria-cta-orange text-vectoria-white hover:bg-orange-600 px-10 py-4 text-xl rounded-full shadow-lg transition-all duration-300 ease-in-out">
+          <Button className="bg-vectoria-cta-orange text-vectoria-white hover:bg-orange-600 px-12 py-6 text-2xl rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105">
             Contáctanos
           </Button>
         </motion.div>
@@ -59,6 +59,8 @@ export function HeroSection() {
       <div className="absolute inset-0 z-0 opacity-20">
         {/* Aquí podríamos añadir partículas animadas, formas abstractas, etc. */}
       </div>
+      {/* Gradient fade at the bottom */}
+      <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent z-20"></div>
     </section>
   );
 } 
