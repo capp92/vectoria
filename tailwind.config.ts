@@ -15,7 +15,8 @@ const config: Config = {
   		backgroundImage: {
   			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
   			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-  			'vectoria-gradient': 'linear-gradient(180deg, #B9F3FB 0%, #E8C0F8 100%)'
+  			'vectoria-gradient': 'linear-gradient(180deg, #B9F3FB 0%, #E8C0F8 100%)',
+  			'vectoria-text-gradient-dark': 'linear-gradient(to right, #8C32C8 0%, #0009B4 100%)'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -30,6 +31,7 @@ const config: Config = {
   			'vectoria-pink-lilac': '#E8C0F8',
   			'vectoria-white': '#FFFFFF',
   			'vectoria-cta-orange': '#FF6600',
+  			'vectoria-dark-blue': '#1A202C',
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',

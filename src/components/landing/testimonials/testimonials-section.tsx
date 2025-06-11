@@ -76,9 +76,9 @@ export function TestimonialsSection() {
                 custom={index}
               >
                 <CarouselItem className="pl-4 md:basis-1/2 lg:basis-1/3">
-                  <Card className="h-full flex flex-col justify-between p-6 bg-vectoria-light-sky shadow-md border-none">
+                  <Card className="h-full flex flex-col justify-between p-6 bg-white border border-vectoria-blue-pastel hover:border-vectoria-cta-orange shadow-md">
                     <CardContent className="flex flex-col items-center justify-center text-center p-0">
-                      <p className="text-xl font-normal text-black italic mb-4">&quot;{testimonial.quote}&quot;</p>
+                      <p className="text-lg font-normal text-black mb-4">&quot;{testimonial.quote}&quot;</p>
                       <p className="text-lg font-normal text-black">{testimonial.author}</p>
                       <p className="text-sm text-black">{testimonial.title}</p>
                     </CardContent>

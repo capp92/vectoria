@@ -27,7 +27,7 @@ export function HeroSection() {
           className="text-5xl md:text-7xl font-bold text-black leading-tight mb-6"
           variants={itemVariants}
         >
-          Automatización con IA<br/>a tu medida
+          Automatización con IA<br/><span className="bg-vectoria-text-gradient-dark bg-clip-text text-transparent">a tu Medida</span>
         </motion.h1>
         <motion.p
           className="text-xl md:text-2xl text-black mb-10 max-w-3xl mx-auto"
@@ -60,7 +60,7 @@ export function HeroSection() {
         {/* Aquí podríamos añadir partículas animadas, formas abstractas, etc. */}
       </div>
       {/* Gradient fade at the bottom */}
-      <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent z-20"></div>
+      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white to-transparent z-20 pointer-events-none"></div>
     </section>
   );
 } 
