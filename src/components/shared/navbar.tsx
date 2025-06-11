@@ -45,13 +45,23 @@ export function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="#faq" className="text-black hover:text-vectoria-blue-pastel transition-colors">
-              FAQ
+            <Link href="#process" className="text-black hover:text-vectoria-blue-pastel transition-colors">
+              Nuestro Proceso
             </Link>
           </li>
           <li>
             <Link href="#testimonials" className="text-black hover:text-vectoria-blue-pastel transition-colors">
               Testimonios
+            </Link>
+          </li>
+          <li>
+            <Link href="#cta" className="text-black hover:text-vectoria-blue-pastel transition-colors">
+              Contáctanos
+            </Link>
+          </li>
+          <li>
+            <Link href="#faq" className="text-black hover:text-vectoria-blue-pastel transition-colors">
+              FAQ
             </Link>
           </li>
         </ul>
@@ -85,11 +95,17 @@ export function Navbar() {
                 <Link href="#services" className="text-black hover:text-vectoria-blue-pastel text-lg font-semibold">
                   Servicios
                 </Link>
-                <Link href="#faq" className="text-black hover:text-vectoria-blue-pastel text-lg font-semibold">
-                  FAQ
+                <Link href="#process" className="text-black hover:text-vectoria-blue-pastel text-lg font-semibold">
+                  Nuestro Proceso
                 </Link>
                 <Link href="#testimonials" className="text-black hover:text-vectoria-blue-pastel text-lg font-semibold">
                   Testimonios
+                </Link>
+                <Link href="#cta" className="text-black hover:text-vectoria-blue-pastel text-lg font-semibold">
+                  Contáctanos
+                </Link>
+                <Link href="#faq" className="text-black hover:text-vectoria-blue-pastel text-lg font-semibold">
+                  FAQ
                 </Link>
               </nav>
             </SheetContent>

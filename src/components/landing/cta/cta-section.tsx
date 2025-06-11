@@ -142,10 +142,6 @@ export function CtaSection() {
                     <DollarSign className="text-vectoria-blue-pastel" size={20} />
                     <span className="text-gray-800">Sin compromiso de compra</span>
                   </div>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="text-vectoria-blue-pastel" size={20} />
-                    <span className="text-gray-800">ROI garantizado o reembolso</span>
-                  </div>
                 </CardContent>
               </Card>
             </motion.div>

@@ -37,8 +37,8 @@ export function HeroSection() {
           Diseñamos e implementamos soluciones personalizadas para optimizar tus procesos de marketing, ventas y atención al cliente.
         </motion.p>
         <motion.div variants={itemVariants} transition={{ delay: 0.4 }}>
-          <Button className="bg-vectoria-cta-orange text-vectoria-white hover:bg-orange-600 px-12 py-6 text-2xl rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105">
-            Contáctanos
+          <Button asChild className="bg-vectoria-cta-orange text-vectoria-white hover:bg-orange-600 px-12 py-6 text-2xl rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105">
+            <a href="#cta">Contáctanos</a>
           </Button>
         </motion.div>
       </motion.div>
